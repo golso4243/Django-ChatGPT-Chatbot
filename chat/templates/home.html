@@ -13,8 +13,11 @@
       ChatGPT Chatbot Response
     </div>
     <div class="card-body">
-      
-        <br><br>
+        <br>
+        {% if response %}
+            {{ response }}
+        {% endif %}
+        <br>
     </div>
   </div>
   <br><br>
